@@ -124,3 +124,17 @@ document.getElementById("year").textContent = new Date().getFullYear();
 renderFilters();
 renderProducts();
 renderCart();
+# موقع بيع منتجات المزرعة
+
+موقع ثابت (HTML/CSS/JS) لبيع الدواجن، البيض، الأرانب، الصغار والخرفان. الطلبات تصل عبر واتساب.
+
+## الملفات
+- `index.html` – الصفحة
+- `style.css` – التصميم
+- `script.js` – المنتجات والسلة (عدّل رقم واتساب والمنتجات في أعلاه)
+
+## النشر على GitHub Pages
+1. أنشئ Repository جديد في GitHub (مثلا `farm-shop`).
+2. ارفع الملفات الأربعة.
+3. من **Settings → Pages** اختر Branch: `main` والمجلد `/ (root)` ثم Save.
+4. بعد دقائق يظهر الموقع على: `https://USERNAME.github.io/farm-shop/`
